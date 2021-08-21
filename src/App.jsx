@@ -1,10 +1,10 @@
 import React from 'react';
-import './styles.scss';
+import './app.scss';
 
 function App() {
   return (
     <div className="App">
-      <p>gus menso</p>
+      <h1>gus menso</h1>
     </div>
   );
 }
