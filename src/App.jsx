@@ -1,24 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import allColors from './styles/colors'
+import React from 'react';
+import './styles.scss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Guz menso
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>gus menso</p>
     </div>
   );
 }
