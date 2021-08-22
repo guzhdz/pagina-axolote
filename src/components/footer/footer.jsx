@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 import React from 'react';
 import './_footer.scss';
-import { Colors } from 'pretty-format';
 
 const Footer = () => (
 
@@ -42,9 +40,7 @@ const Footer = () => (
       <circle class="drop drop3" cx="16" cy="2.8" r="1.2" />
       <use id="wave1" class="wave" xlinkHref="#wave" x="0" y="1" />
 
-
     <path   id="wave1"  class="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
-
   </g>
 
   </svg>
@@ -55,22 +51,3 @@ const Footer = () => (
 );
 
 export default Footer;
-
-import React from 'react';
-import './_footer.scss';
-
-const Footer = () => (
-    <div>
-        <footer>
-            <p>Logo Facebook</p>
-            <p>Correo Electronico</p>
-            <p>Aviso de privacidad</p>
-            <p>Axolote Labs 2021</p>
-        </footer>
-    </div>
-);
-
-export default Footer;
-
-=======
->>>>>>> parent of a56769b (Footer olas)
