@@ -9,23 +9,7 @@ import Footer from './components/footer/footer';
 function App() {
   return (
     <div className="App">
-      <ATexto label='Tu mensaje'/>
-
-
-      <Boton texto='Cotiza aquí'/>
-      <Input 
-        type="text"
-        label="Nombre"
-      />
-      <Input 
-        type="email"
-        label="Correo electronico"
-      />
-
-      <Nav/>
-
-      <Footer/>
-
+      Axolote Labs
     </div>
   );
 }
