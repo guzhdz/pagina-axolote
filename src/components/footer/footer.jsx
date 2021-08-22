@@ -1,4 +1,3 @@
-
 import React from 'react';
 import './_footer.scss';
 import { Colors } from 'pretty-format';
@@ -52,6 +51,22 @@ const Footer = () => (
   <div>AXOLOTL LABS</div>
 </footer>
   
+);
+
+export default Footer;
+
+import React from 'react';
+import './_footer.scss';
+
+const Footer = () => (
+    <div>
+        <footer>
+            <p>Logo Facebook</p>
+            <p>Correo Electronico</p>
+            <p>Aviso de privacidad</p>
+            <p>Axolote Labs 2021</p>
+        </footer>
+    </div>
 );
 
 export default Footer;

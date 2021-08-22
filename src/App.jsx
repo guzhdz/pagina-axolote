@@ -11,7 +11,6 @@ function App() {
     <div className="App">
       <ATexto label='Tu mensaje'/>
 
-
       <Boton texto='Cotiza aquí'/>
       <Input 
         type="text"
@@ -25,8 +24,7 @@ function App() {
       <Nav/>
 
       <Footer/>
-
-
+      GusGay
     </div>
   );
 }
