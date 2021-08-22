@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 import React from 'react';
 import './_footer.scss';
 import { Colors } from 'pretty-format';
@@ -56,4 +55,4 @@ const Footer = () => (
 );
 
 export default Footer;
->>>>>>> Stashed changes
+
