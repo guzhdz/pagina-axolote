@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import './_footer.scss';
 import { Colors } from 'pretty-format';
@@ -71,3 +72,5 @@ const Footer = () => (
 
 export default Footer;
 
+=======
+>>>>>>> parent of a56769b (Footer olas)
