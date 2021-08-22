@@ -2,6 +2,18 @@
 @import "./styles/font-size.scss";
 @import "./styles/typo.scss";
 
+body {
+  margin: 0;
+  font-family: $font-family, 'sans-serif';
+  font-size: $font-size1;
+  font-weight: 700;
+}
+
 h1 {
   color: $color-6;
+}
+
+h2 {
+  font-size: $font-size2;
+  font-weight: 900;
 }
