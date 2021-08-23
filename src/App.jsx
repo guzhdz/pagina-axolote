@@ -1,15 +1,20 @@
 import React from 'react';
 import './app.scss';
-import ATexto from './components/textarea/textarea';
-import Boton from './components/button/button';
-import Input from './components/input/input';
 import Nav from './components/nav/nav';
 import Footer from './components/footer/footer';
+import Home from './sections/home/home';
+import Services from './sections/services/services';
+import Contacto from './sections/contacto/contacto';
 
 function App() {
   return (
     <div className="App">
-      Axolote Labs
+      <div id="Home"/>
+      <Nav />
+      <Home />
+      <Services />
+      <Contacto />
+      <Footer />
     </div>
   );
 }
