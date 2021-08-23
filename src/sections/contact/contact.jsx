@@ -1,15 +1,15 @@
 import React from 'react';
 import Input from '../../components/input/input'
-import ATexto from '../../components/textarea/textarea'
+import Textarea from '../../components/textarea/textarea'
 
-const Contacto = () => (
-    <div className="cont-contacto">
+const Contact = () => (
+    <div className="cont-contact">
         <div className="container">
             <Input type="text" label="Nombre"/>
             <Input type="email" label="Correo"/>
-            <ATexto label="Escribe tu mensaje aqui"/>
+            <Textarea label="Escribe tu mensaje aqui"/>
         </div>
     </div>
 );
 
-export default Contacto;
+export default Contact;

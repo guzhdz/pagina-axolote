@@ -4,7 +4,7 @@ import Nav from './components/nav/nav';
 import Footer from './components/footer/footer';
 import Home from './sections/home/home';
 import Services from './sections/services/services';
-import Contacto from './sections/contacto/contacto';
+import Contact from './sections/contact/contact';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Nav />
       <Home />
       <Services />
-      <Contacto />
+      <Contact />
       <Footer />
     </div>
   );

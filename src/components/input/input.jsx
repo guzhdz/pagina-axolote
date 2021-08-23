@@ -4,8 +4,8 @@ import './_input.scss'
 const Input = ({type, label}) => (
     <>
     <div className="cont-input">
-        <input type={type} placeholder={label} name="input2"/>
-        <label htmlFor="input2">{label}</label>
+        <input type={type} placeholder={label}/>
+        <label>{label}</label>
     </div>
     </>
 

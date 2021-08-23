@@ -7,16 +7,16 @@ const Nav = () => (
             <div className="nav-logo">
                 <span>Axolote labs</span>
             </div>
-            <div className="nav-seccion">
+            <div className="nav-section">
                 <p>Inicio</p>
                 <p>Servicios</p>
-                <ul className="servicios">
+                <ul className="services">
                     <li>Diseño web</li>
                     <li>Aplicaciones moviles</li>
                     <li>Sistemas empresariales</li>
                     <li>Fotografia</li>
                 </ul>
-                <p>Contacto</p>
+                <p>contact</p>
             </div>
         </nav>
     </div>
