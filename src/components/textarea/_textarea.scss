@@ -1,0 +1,60 @@
+@import '../../styles/colors.scss';
+
+.text-area {
+    margin-top: 30px;
+    margin-bottom: -40px;
+    
+    textarea {
+        resize: none;
+        width: 762px;
+        height: 120px;
+
+        margin: 0;
+        background-color: $color-8;
+        border: 2px solid $color-6;
+        border-radius: 5px;
+
+        color: $color-2;
+        font-size: 1em;
+        font-weight: 700;
+        font-family: 'Lato', sans-serif;
+
+        display: block;
+
+        &:not(:placeholder-shown) + label {
+            visibility: visible;
+            opacity: 1;
+            font-size: .8em;
+            transform: translate(1%, -780%);
+        }
+        
+        &:placeholder-shown + label {
+            visibility: hidden;
+            opacity: 0;
+            font-size: 1em;
+            transform: translate(1%, -620%);
+        } 
+
+        &:focus {
+            outline: none;
+            border: 3px solid #7c34e9;
+        }
+    }
+
+    label {
+        width: 762px;
+        height: 20px;
+        margin: 0;
+
+        color: $color-6;
+        text-align: left;
+        font-size: 1em;
+
+        display: block;
+        visibility: hidden;
+        opacity: 2;
+
+        transform: translate(1%, -620%);
+        transition: 0.2s ease all;
+    }
+}
