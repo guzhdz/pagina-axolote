@@ -1,8 +1,8 @@
 @import '../../styles/colors.scss';
 
 .cont-input {
-    margin-top: 30px;
-    margin-bottom: -40px;
+    margin-top: 32px;
+    margin-bottom: -30px;
     
     input {
         width: 366px;
@@ -23,14 +23,14 @@
             visibility: visible;
             opacity: 1;
             font-size: .8em;
-            transform: translate(1.5%, -180%);
+            transform: translate(1.5%, -245%);
         }
         
         &:placeholder-shown + label {
             visibility: hidden;
             opacity: 0;
             font-size: 1em;
-            transform: translate(1.5%, -100%);
+            transform: translate(1.5%, -136%);
         } 
 
         &:focus {
@@ -41,7 +41,7 @@
 
     label {
         width: 366px;
-        height: 40px;
+        height: 30px;
         margin: 0;
 
         color: $color-6;
@@ -52,7 +52,7 @@
         visibility: hidden;
         opacity: 0;
 
-        transform: translate(1.5%, -100%);
+        transform: translate(1.5%, -136%);
         transition: 0.2s ease all;
     }
 }
