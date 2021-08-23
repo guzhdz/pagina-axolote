@@ -1,18 +1,20 @@
 import React from 'react';
 import './app.scss';
-import Nav from './components/nav/nav';
-import Footer from './components/footer/footer';
-import Home from './sections/home/home';
-import Services from './sections/services/services';
-import Contact from './sections/contact/contact';
+import Nav from './components/nav/nav.jsx';
+import Home from './sections/home/home.jsx';
+import Services from './sections/services/services.jsx';
+import Contact from './sections/contact/contact.jsx';
+import Footer from './components/footer/footer.jsx';
 
 function App() {
   return (
     <div className="App">
-      <div id="Home"/>
+      <div id="Inicio"/>
       <Nav />
       <Home />
+      <div id="Servicios"/>
       <Services />
+      <div id="Contacto"/>
       <Contact />
       <Footer />
     </div>

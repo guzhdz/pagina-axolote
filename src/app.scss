@@ -3,9 +3,10 @@
 @import "./styles/typo.scss";
 
 body {
-  font-family: $font-family, 'sans-serif';
+  font-family: $font-family;
   font-size: $font-size1;
   font-weight: 700;
+  background: $color-8;
 }
 
 h1 {

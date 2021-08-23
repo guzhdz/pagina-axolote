@@ -1,24 +1,24 @@
 import React from 'react';
+
 import './_nav.scss';
+import './nav.js'
 
 const Nav = () => (
-    <div className="cont-nav">
-        <nav>
-            <div className="nav-logo">
-                <span>Axolote labs</span>
+    <div className='cont-nav'>
+        <div class="hold">
+        <div class="header">
+            <div class="container">
+            <div id="logo">
+                <a href="#Inicio"><p>Axolotl Labs</p></a>
             </div>
-            <div className="nav-section">
-                <p>Inicio</p>
-                <p>Servicios</p>
-                <ul className="services">
-                    <li>Diseño web</li>
-                    <li>Aplicaciones moviles</li>
-                    <li>Sistemas empresariales</li>
-                    <li>Fotografia</li>
-                </ul>
-                <p>contact</p>
+            <ul class="nav">
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Servicios">Servicios</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
             </div>
-        </nav>
+        </div>
+        </div>
     </div>
 );
 

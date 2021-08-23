@@ -1,0 +1,119 @@
+.cont-nav {
+  .container {
+    position: relative;
+    margin: 0 auto;
+    color: black;
+  }
+
+  .hold {
+    height: 100px;
+  }
+
+  .header {
+    line-height: 80px;
+    width: 100%;
+    transition: line-height 0.2s linear, box-shadow 0.2s linear;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    transition: all 0.6s ease;
+    background: #7c34e9;
+  }
+
+  .header.fade {
+    transition: all 0.6s ease;
+    background: rgba(124, 52, 233, 0.6);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .header.fade > .container > #logo {
+    height: 40px;
+  }
+
+  #logo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+    height: 40px;
+    width: 170px;
+    margin-left: 5px;
+    a {
+      color: initial;
+      text-decoration: initial;
+    }
+  }
+
+  ul.nav {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul.nav li {
+    float: left;
+    position: relative;
+  }
+
+  ul.nav li a {
+    transition: color 0.2s linear;
+    font-size: 18px;
+  }
+
+  ul.nav li:hover a {
+    color: #f76ca5;
+  }
+
+  ul.nav li a {
+    padding: 21px;
+    color: initial;
+    text-decoration: initial;
+  }
+
+  @media all and (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+    .header {
+      height: auto;
+      background: #7c34e9;
+    }
+    #logo {
+      position: initial;
+      float: none;
+      display: block;
+      transform: none;
+      margin: 10px auto 0 auto;
+    }
+    ul.nav {
+      float: none;
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+    }
+    ul.nav li {
+      float: initial;
+      display: inline-block;
+    }
+  }
+
+  @media all and (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+
+  @media all and (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+
+  @media all and (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+}

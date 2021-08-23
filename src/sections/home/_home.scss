@@ -1,15 +1,40 @@
+@import "../../styles/colors.scss";
+
 .cont-Home {
+  .container {
+    border: 1px solid black;
+    width: 1800px;
+    height: 800px;
+    left: 60;
+    top: 20px;
+    margin: 0px auto;
+    position: relative;
+    background-image: url("./images/download.jfif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
 
-    .container {
-        border: 1px solid black;
-        background-image: none;
-        width: 1800px;
-        height: 800px;
-        left: 60px;
-        top: 125px;
+  h2 {
+    position: relative;
+    width: 1098px;
+    height: 186px;
+    left: calc(50% - 1098px / 2 - 198px);
+    font-size: 5em;
+
+    .axolotl {
+      color: $color-1;
     }
 
-    p {
-        width: 732px;
+    .labs {
+      color: $color-5;
     }
+  }
+
+  p {
+    position: relative;
+    width: 732px;
+    height: 100px;
+    left: calc(50% - 732px / 2 - 381px);
+    font-size: 2.5em;
+  }
 }
