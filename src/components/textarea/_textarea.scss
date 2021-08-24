@@ -3,19 +3,21 @@
 .text-area {
     margin-top: 30px;
     margin-bottom: -40px;
+    grid-column-start: 1;
+    grid-column-end: 3;
     
     textarea {
         resize: none;
         width: 762px;
-        height: 120px;
+        height: 200px;
 
         margin: 0;
         background-color: $color-8;
-        border: 2px solid $color-6;
+        border: 3px solid $color-4;
         border-radius: 5px;
 
         color: $color-2;
-        font-size: 1em;
+        font-size: 1.2em;
         font-weight: 700;
         font-family: 'Lato', sans-serif;
 
@@ -24,20 +26,20 @@
         &:not(:placeholder-shown) + label {
             visibility: visible;
             opacity: 1;
-            font-size: .8em;
-            transform: translate(1%, -780%);
+            font-size: .9em;
+            transform: translate(1%, -1220%);
         }
         
         &:placeholder-shown + label {
             visibility: hidden;
             opacity: 0;
             font-size: 1em;
-            transform: translate(1%, -620%);
+            transform: translate(1%, -1030%);
         } 
 
         &:focus {
             outline: none;
-            border: 3px solid #7c34e9;
+            border: 4px solid $color-4;
         }
     }
 
@@ -46,15 +48,15 @@
         height: 20px;
         margin: 0;
 
-        color: $color-6;
+        color: $color-4;
         text-align: left;
-        font-size: 1em;
+        font-size: 1.2em;
 
         display: block;
         visibility: hidden;
-        opacity: 2;
+        opacity: 0;
 
-        transform: translate(1%, -620%);
+        transform: translate(1%, -1030%);
         transition: 0.2s ease all;
     }
 }

@@ -6,36 +6,37 @@
     
     input {
         width: 366px;
-        height: 40px;
+        height: 65px;
 
         margin: 0;
         background-color: $color-8;
-        border: 2px solid $color-6;
+        border: 3px solid $color-4;
         border-radius: 5px;
 
         color: $color-2;
-        font-size: 1em;
+        font-size: 1.2em;
         font-weight: 700;
 
         display: block;
+        transition: 0.1s ease all;
 
         &:not(:placeholder-shown) + label {
             visibility: visible;
             opacity: 1;
-            font-size: .8em;
-            transform: translate(1.5%, -245%);
+            font-size: .9em;
+            transform: translate(1.5%, -340%);
         }
         
         &:placeholder-shown + label {
             visibility: hidden;
             opacity: 0;
             font-size: 1em;
-            transform: translate(1.5%, -136%);
+            transform: translate(1.5%, -200%);
         } 
 
         &:focus {
             outline: none;
-            border: 3px solid #7c34e9;
+            border: 4px solid $color-4;
         }
     }
 
@@ -44,15 +45,15 @@
         height: 30px;
         margin: 0;
 
-        color: $color-6;
+        color: $color-4;
         text-align: left;
-        font-size: 1em;
+        font-size: 1.3em;
 
         display: block;
         visibility: hidden;
         opacity: 0;
 
-        transform: translate(1.5%, -136%);
-        transition: 0.2s ease all;
+        transform: translate(1.5%, -200%);
+        transition: 0.25s ease all;
     }
 }

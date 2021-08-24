@@ -2,24 +2,22 @@
 
 .cont-Home {
   .container {
-    border: 1px solid black;
     width: 1800px;
-    height: 800px;
-    left: 60;
-    top: 20px;
-    margin: 0px auto;
-    position: relative;
-    background-image: url("./images/download.jfif");
+    height: 1000px;
+    margin: 50px auto;
+    border-radius: 20px;
+    background-image: url("./images/fondo2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
 
   h2 {
-    position: relative;
     width: 1098px;
     height: 186px;
     left: calc(50% - 1098px / 2 - 198px);
     font-size: 5em;
+    position: absolute;
+    top: 149.60px;
 
     .axolotl {
       color: $color-1;
@@ -31,10 +29,11 @@
   }
 
   p {
-    position: relative;
     width: 732px;
     height: 100px;
     left: calc(50% - 732px / 2 - 381px);
     font-size: 2.5em;
+    position: absolute;
+    top: 539.60px;
   }
 }
