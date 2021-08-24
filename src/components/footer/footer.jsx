@@ -1,10 +1,9 @@
 import React from 'react';
 import './_footer.scss';
-import logo from './images/logo.png';
 
 const Footer = () => (
   <div className='cont-footer'>
-    <footer className="site-footer">
+    <footer>
     <svg viewBox="0 0 120 28">
       <defs>
         <mask id="xxx">
@@ -50,45 +49,9 @@ const Footer = () => (
 
     </svg>
 
-    <footer class="flex-rw">
-  
-  <ul class="footer-list-top">
-    <li>
-      <h4 class="footer-list-header">Axoltl Labs</h4></li>
-    <img src= {logo} className="logo"/>
-  </ul>
-  
-  <ul class="footer-list-top">
-    <li>
-      <h4 class="footer-list-header">Servicios</h4></li>
-
-    <li><a href='' class="generic-anchor footer-list-anchor">DISEÑO Y DESARROLLO WEB</a></li>
-    <li><a href='' class="generic-anchor footer-list-anchor">APLICACIONES MÓVILES</a></li>
-    <li><a href='' class="generic-anchor footer-list-anchor">SISTEMAS PARA EMPRESAS</a></li>
-    <li><a href='' class="generic-anchor footer-list-anchor">FOTOGRAFÍA</a></li>
-  </ul>
-  <ul class="footer-list-top">
-    <li id='help'>
-      <h4 class="footer-list-header">Contacto</h4></li>
-    <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">FACEBOOK</a></li>
-    <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">WHATSAPP</a></li>
-    <li id='find-a-store'><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">GMAIL</a></li>
-
-  </ul>
-
-  <section class="footer-bottom-section flex-rw">
-<div class="footer-bottom-wrapper">   
-<i class="fa fa-copyright" role="copyright">
- 
-</i> 2021 <address class="footer-address" role="company address">Axolotl Labs</address><span class="footer-bottom-rights"> - Todos los derechos reservados - </span>
-    </div>
-    <div class="footer-bottom-wrapper">
-    <a href="/terms-of-use.html" class="generic-anchor" rel="nofollow">Términos</a> | <a href="/privacy-policy.html" class="generic-anchor" rel="nofollow">Privacidad</a>
-      </div>
-  </section>
-</footer>
-</footer>
-</div>
+    <div>GUSGAY</div>
+  </footer>
+  </div>
 );
 
 export default Footer;
