@@ -1,59 +1,59 @@
-@import '../../styles/colors.scss';
+@import "../../styles/colors.scss";
 
 .cont-input {
-    margin-top: 32px;
-    margin-bottom: -30px;
-    
-    input {
-        width: 366px;
-        height: 65px;
+  margin-top: 32px;
+  margin-bottom: -30px;
 
-        margin: 0;
-        background-color: $color-8;
-        border: 3px solid $color-4;
-        border-radius: 5px;
+  input {
+    width: 366px;
+    height: 65px;
 
-        color: $color-2;
-        font-size: 1.2em;
-        font-weight: 700;
+    margin: 0;
+    background-color: $color-8;
+    border: 3px solid $color-4;
+    border-radius: 5px;
 
-        display: block;
-        transition: 0.1s ease all;
+    color: $color-2;
+    font-size: 1.2em;
+    font-weight: 700;
 
-        &:not(:placeholder-shown) + label {
-            visibility: visible;
-            opacity: 1;
-            font-size: .9em;
-            transform: translate(1.5%, -340%);
-        }
-        
-        &:placeholder-shown + label {
-            visibility: hidden;
-            opacity: 0;
-            font-size: 1em;
-            transform: translate(1.5%, -200%);
-        } 
+    display: block;
+    transition: 0.1s ease all;
 
-        &:focus {
-            outline: none;
-            border: 4px solid $color-4;
-        }
+    &:not(:placeholder-shown) + label {
+      visibility: visible;
+      opacity: 1;
+      font-size: 0.9em;
+      transform: translate(1.5%, -340%);
     }
 
-    label {
-        width: 366px;
-        height: 30px;
-        margin: 0;
-
-        color: $color-4;
-        text-align: left;
-        font-size: 1.3em;
-
-        display: block;
-        visibility: hidden;
-        opacity: 0;
-
-        transform: translate(1.5%, -200%);
-        transition: 0.25s ease all;
+    &:placeholder-shown + label {
+      visibility: hidden;
+      opacity: 0;
+      font-size: 1em;
+      transform: translate(1.5%, -200%);
     }
+
+    &:focus {
+      outline: none;
+      border: 4px solid $color-4;
+    }
+  }
+
+  label {
+    width: 366px;
+    height: 30px;
+    margin: 0;
+
+    color: $color-4;
+    text-align: left;
+    font-size: 1.3em;
+
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+
+    transform: translate(1.5%, -200%);
+    transition: 0.25s ease all;
+  }
 }

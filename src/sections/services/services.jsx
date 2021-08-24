@@ -4,7 +4,7 @@ import './services.js';
 
 const Services = () => (
     
-<div>
+<div className='cont-services'>
 <div class="skw-pages">
   <div class="skw-page skw-page-1 active">
     <div class="skw-page__half skw-page__half--left">

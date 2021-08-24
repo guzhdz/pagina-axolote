@@ -1,54 +1,57 @@
 @import "../../styles/colors.scss";
 
-*, *:before, *:after {
+.cont-services {
+  *,
+  *:before,
+  *:after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
-  $openSans: 'Open Sans', Helvetica, Arial, sans-serif;
+  $openSans: "Open Sans", Helvetica, Arial, sans-serif;
   body {
     background: $color-3;
     font-family: $openSans;
   }
-  
+
   .skw-pages {
     overflow: hidden;
     position: relative;
     height: 100vh;
   }
-  
+
   $skewDeg: 18deg;
   $magicVH: 32.4vh; // this number is magic and depends on skew angle
   $scrollTime: 1s;
-  
+
   .skw-page {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-  
+
     &__half {
       position: absolute;
       top: 0;
       width: 50%;
       height: 100vh;
       transition: transform $scrollTime;
-  
+
       &--left {
         left: 0;
         transform: translate3d(-$magicVH, 100%, 0);
-          }
-  
+      }
+
       &--right {
         left: 50%;
         transform: translate3d($magicVH, -100%, 0);
       }
-  
+
       .skw-page.active & {
-        transform: translate3d(0,0,0);
+        transform: translate3d(0, 0, 0);
       }
     }
-  
+
     &__skewed {
       overflow: hidden;
       position: absolute;
@@ -57,7 +60,7 @@
       height: 100%;
       transform: skewX($skewDeg * -1);
       background: #000;
-  
+
       .skw-page__half--left & {
         left: -40%;
       }
@@ -65,7 +68,7 @@
         right: -40%;
       }
     }
-  
+
     &__content {
       display: flex;
       align-items: center;
@@ -81,7 +84,7 @@
       transform: skewX($skewDeg);
       transition: transform $scrollTime, opacity $scrollTime;
       background-size: cover;
-  
+
       .skw-page__half--left & {
         padding-left: 30%;
         padding-right: 30%;
@@ -92,32 +95,32 @@
         padding-right: 30%;
         transform-origin: 0 100%;
       }
-  
+
       .skw-page.inactive & {
         opacity: 0.5;
         transform: skewX($skewDeg) scale(0.95);
       }
     }
-  
+
     &__heading {
       margin-bottom: 15px;
       text-transform: uppercase;
       font-size: 45px;
       text-align: center;
     }
-  
+
     &__description {
       font-size: 28px;
       text-align: center;
     }
-    
+
     &__link {
-      color: #FFA0A0;
+      color: #ffa0a0;
     }
-  
+
     &-1 {
       .skw-page__half--left .skw-page__content {
-        background-image: url('https://image.freepik.com/foto-gratis/desarrollo-sitios-web_53876-95315.jpg');
+        background-image: url("https://image.freepik.com/foto-gratis/desarrollo-sitios-web_53876-95315.jpg");
       }
       .skw-page__half--right .skw-page__content {
         background: $color-4;
@@ -128,12 +131,12 @@
         background: $color-4;
       }
       .skw-page__half--right .skw-page__content {
-        background-image: url('https://image.freepik.com/foto-gratis/cerca-manos-mujer-emprendedora-telefonos-inteligentes-transcurso-fecha-limite-empresaria-enviando-mensajes-texto-altas-horas-noche-mientras-trabajaba-proyecto-importante-telefono-inteligente_482257-10261.jpg');
+        background-image: url("https://image.freepik.com/foto-gratis/cerca-manos-mujer-emprendedora-telefonos-inteligentes-transcurso-fecha-limite-empresaria-enviando-mensajes-texto-altas-horas-noche-mientras-trabajaba-proyecto-importante-telefono-inteligente_482257-10261.jpg");
       }
     }
     &-3 {
       .skw-page__half--left .skw-page__content {
-        background-image: url('https://image.freepik.com/foto-gratis/joven-lider-equipo-gran-corporacion-informando-companeros-trabajo-apuntando-al-grafico-reunion-personal-corporativo_482257-4169.jpg');
+        background-image: url("https://image.freepik.com/foto-gratis/joven-lider-equipo-gran-corporacion-informando-companeros-trabajo-apuntando-al-grafico-reunion-personal-corporativo_482257-4169.jpg");
       }
       .skw-page__half--right .skw-page__content {
         background: $color-4;
@@ -144,8 +147,8 @@
         background: $color-4;
       }
       .skw-page__half--right .skw-page__content {
-        background-image: url('https://image.freepik.com/foto-gratis/fotografo-producto-femenino-joven-estudio_23-2148970230.jpg');
+        background-image: url("https://image.freepik.com/foto-gratis/fotografo-producto-femenino-joven-estudio_23-2148970230.jpg");
       }
     }
   }
-  
+}
