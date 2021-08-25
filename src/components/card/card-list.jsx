@@ -6,7 +6,7 @@ class List extends React.Component {
         super();
         this.state = {
             services : [{
-                service : 'Diseño web',
+                service : 'DISEÑO WEB',
                 description : 'CREAMOS TU PÁGINA WEB DE PIES A CABEZA, TUS IDEAS LAS HAREMOS REALIDAD',
                 link : 'Servicios/diseño_web',
                 number : 1,
