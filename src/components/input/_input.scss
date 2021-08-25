@@ -12,31 +12,37 @@
     background-color: $color-8;
     border: 3px solid $color-4;
     border-radius: 5px;
+    padding: 3px;
+    padding-left: 6px;
+    box-sizing: border-box;
 
     color: $color-2;
     font-size: 1.2em;
     font-weight: 700;
 
     display: block;
-    transition: 0.1s ease all;
 
     &:not(:placeholder-shown) + label {
       visibility: visible;
       opacity: 1;
       font-size: 0.9em;
-      transform: translate(1.5%, -340%);
+      transform: translate(2%, -340%);
     }
 
     &:placeholder-shown + label {
       visibility: hidden;
       opacity: 0;
       font-size: 1em;
-      transform: translate(1.5%, -200%);
+      transform: translate(2%, -200%);
     }
 
     &:focus {
       outline: none;
       border: 4px solid $color-4;
+    }
+
+    &:hover {
+      background-color: fade-in($color: #43454b, $amount: 0.4);
     }
   }
 
@@ -53,7 +59,7 @@
     visibility: hidden;
     opacity: 0;
 
-    transform: translate(1.5%, -200%);
+    transform: translate(2%, -200%);
     transition: 0.25s ease all;
   }
 }
