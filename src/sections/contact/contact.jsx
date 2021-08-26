@@ -14,6 +14,18 @@ const Contact = () => (
                 <Textarea label="Escribe tu mensaje aqui" className="textarea"/>
                 <Button texto="Enviar" />
             </div>
+            <ul class="bg-bubbles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
         </div>
     </div>
 );
