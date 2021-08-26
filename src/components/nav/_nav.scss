@@ -72,6 +72,38 @@
     text-decoration: initial;
   }
 
+  ul ul {
+    display: none;
+    list-style: none;
+    position:absolute;
+    top: 82px;
+    left: 950px;
+    background-color: #7c34e9;
+    width: 200px;
+
+    li {
+      font-size: 18px;
+      float:none;
+      padding: 0;
+
+      &:hover a{
+        color: #f76ca5;
+      }
+
+      a {
+        margin-left: -38px;
+      }
+    }
+
+    &:hover {
+      display: block;
+    }
+  }
+
+  ul.nav li:hover + ul{
+    display: block;
+  }
+
   @media all and (max-width: 768px) {
     .container {
       width: 95%;
