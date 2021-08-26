@@ -2,11 +2,16 @@
 @import "./styles/font-size.scss";
 @import "./styles/typo.scss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: $font-family;
   font-size: $font-size1;
   font-weight: 700;
   background: $color-8;
+  overflow-x: hidden;
 }
 
 h1 {
