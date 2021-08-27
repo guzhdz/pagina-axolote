@@ -25,6 +25,10 @@
     transition: all 0.6s ease;
     background: rgba(124, 52, 233, 0.6);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    ul ul {
+      background: rgba(124, 52, 233, 0.6);
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
   }
 
   .header.fade > .container > #logo {
@@ -75,18 +79,18 @@
   ul ul {
     display: none;
     list-style: none;
-    position:absolute;
+    position: absolute;
     top: 82px;
-    left: 950px;
+    left: 900px;
     background-color: #7c34e9;
     width: 200px;
 
     li {
       font-size: 18px;
-      float:none;
+      float: none;
       padding: 0;
 
-      &:hover a{
+      &:hover a {
         color: #f76ca5;
       }
 
@@ -100,7 +104,7 @@
     }
   }
 
-  ul.nav li:hover + ul{
+  ul.nav li:hover + ul {
     display: block;
   }
 

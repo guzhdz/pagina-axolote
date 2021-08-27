@@ -43,9 +43,9 @@ $(document).ready(function() {
   
     $(document).on("keydown", function(e) {
       if (scrolling) return;
-      if (e.which === 38) {
+      if (e === 38) {
         navigateUp();
-      } else if (e.which === 40) {
+      } else if (e === 40) {
         navigateDown();
       }
     });
