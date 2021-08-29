@@ -6,7 +6,7 @@
   }
 
   .hold {
-    height: 100px;
+    height: 80px;
   }
 
   .header {
@@ -95,7 +95,7 @@
       &:hover a {
         color: #f76ca5;
       }
-      
+
       &:hover {
         background-color: #6913e9;
       }
@@ -110,21 +110,22 @@
   }
 
   ul.nav li:hover + ul {
-    display:block;
+    display: block;
     animation: dropdown 0.7s ease-in-out forwards;
     transform-origin: top center;
   }
 
-  @keyframes dropdown{
-    0%{
-      opacity:0;
-      transform:scaleY(0);
+  @keyframes dropdown {
+    0% {
+      opacity: 0;
+      transform: scaleY(0);
     }
-    80%{
-      transform:scaleY(1);
+    80% {
+      transform: scaleY(1);
     }
-    100%{opacity:1;
-      transform:scaleY(1);
+    100% {
+      opacity: 1;
+      transform: scaleY(1);
     }
   }
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import './app.scss';
 import Nav from './components/nav/nav.jsx';
-import Home from './sections/home/home.jsx';
 import Services from './sections/services/services.jsx';
 import Contact from './sections/contact/contact.jsx';
 import Footer from './components/footer/footer.jsx';

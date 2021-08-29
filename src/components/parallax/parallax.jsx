@@ -13,11 +13,11 @@ const Parallax = () => (
  
 <section className="section">
 <h2 id="text"><span>Soluciones modernas, ideas innovadoras</span><br/>AXOLTL LABS</h2>
-<img src={bird1} id="bird1" className="vectores"/>
-<img src={bird2} id="bird2" className="vectores"/>
-<img src={forest} id="forest" className="vectores"/>
-<img src={rocks} id="rocks" className="vectores"/>
-<img src={water} id="water" className="vectores"/>
+<img src={bird1} id="bird1" className="vectores" alt=''/>
+<img src={bird2} id="bird2" className="vectores" alt='' />
+<img src={forest} id="forest" className="vectores" alt='' />
+<img src={rocks} id="rocks" className="vectores" alt='' />
+<img src={water} id="water" className="vectores" alt='' />
 </section>
 
 </div>
