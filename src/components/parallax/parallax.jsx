@@ -6,7 +6,6 @@ import bird2 from './images/bird2.png';
 import forest from './images/forest.png';
 import rocks from './images/rocks.png';
 import water from './images/water.png';
-import ajolote from './images/ajolote.png';
  
 const Parallax = () => (
     
@@ -19,7 +18,6 @@ const Parallax = () => (
 <img src={forest} id="forest" className="vectores"/>
 <img src={rocks} id="rocks" className="vectores"/>
 <img src={water} id="water" className="vectores"/>
-<img src={ajolote} className="ajolote" id="ajolote"/>
 </section>
 
 </div>
