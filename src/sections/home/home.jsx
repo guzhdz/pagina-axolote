@@ -1,8 +1,9 @@
 import React from 'react';
 import './_home.scss';
+import axolote from './images/ajolote.png';
 
 const Home = () => (
-<div className='cont-prueba'>
+<div className='cont-home'>
 
 <div class="landscape">
 
@@ -38,8 +39,9 @@ const Home = () => (
   <div class="splash splash-stone splash-4"></div>
   <div class="splash splash-stone splash-5"></div>
   <div class="lotus lotus-1"></div>
-  <div class="lotus lotus-2"></div>
-  <div class="lotus lotus-3"></div>
+  <div class="lotus lotus-2"><img src={axolote} class="axolote" /></div>
+  <div class="lotus lotus-3">
+  </div>
   <div class="front">
     <div class="stone"></div>
     <div class="grass"></div>
@@ -48,6 +50,7 @@ const Home = () => (
     <div class="reed"></div>
     <div class="reed reed-1"></div>
   </div>
+  <p class="titulo">AXOLOTL LABS</p>
 </div>
 
 </div>
