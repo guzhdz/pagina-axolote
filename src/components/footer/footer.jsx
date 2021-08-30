@@ -7,6 +7,9 @@ const Footer = () => (
   <footer class="fixed_footer">
     <div class="content">
       <div className="data">
+        <div className="img">
+          <img src={logo} alt="Logo" />
+        </div>
         <div>
           <h6>Axolotl Labs</h6>
           <p>
@@ -25,7 +28,7 @@ const Footer = () => (
           </ul>
         </div>
 
-        <div>
+        <div className="less-left">
           <h6>Redes sociales</h6>
           <ul>
             <li>Facebook</li>
@@ -33,12 +36,12 @@ const Footer = () => (
             <li>Gmail</li>
           </ul>
         </div>
+
       </div>
-    
-      <hr />
 
       <div className="links">
-          <p>Copyright &copy; 2021 Todos los drechos reservados por Axolotl labs</p>
+          <p className="copy">Copyright &copy; 2021 Todos los drechos reservados por Axolotl labs</p>
+          <p className="privacy">Aviso de privacidad</p>
       </div>
     </div>
   </footer>
