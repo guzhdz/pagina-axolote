@@ -38,9 +38,9 @@
     .titulo{
       font-size: 250%;
       color: $color-5;
-      margin-left: 152px;
+      margin-left: 30px;
       margin-top: 428px;
-      animation: title_animation 5s;
+      animation: title_animation 3s;
       animation-fill-mode: forwards;
       z-index: -1;
     }
@@ -309,7 +309,7 @@
     }
     @keyframes title_animation {
       100% {
-        transform: translateX(31vmin);
+        transform: translateX(44vmin);
       }
     }
     @keyframes rise-reflection {
