@@ -12,6 +12,7 @@ class List extends React.Component {
                 number : 1,
                 text : 'right',
                 img : 'left',
+                backimg : 'https://image.freepik.com/foto-gratis/desarrollo-sitios-web_53876-95315.jpg',
                 id : 0
             },
             {
@@ -21,6 +22,7 @@ class List extends React.Component {
                 number : 2,
                 text : 'left',
                 img : 'right',
+                backimg : 'https://image.freepik.com/foto-gratis/cerca-manos-mujer-emprendedora-telefonos-inteligentes-transcurso-fecha-limite-empresaria-enviando-mensajes-texto-altas-horas-noche-mientras-trabajaba-proyecto-importante-telefono-inteligente_482257-10261.jpg',
                 id : 1
             },
             {
@@ -30,6 +32,7 @@ class List extends React.Component {
                 number : 3,
                 text : 'right',
                 img : 'left',
+                backimg : 'https://image.freepik.com/foto-gratis/joven-lider-equipo-gran-corporacion-informando-companeros-trabajo-apuntando-al-grafico-reunion-personal-corporativo_482257-4169.jpg',
                 id : 2
             },
             {
@@ -39,6 +42,7 @@ class List extends React.Component {
                 number : 4,
                 text : 'left',
                 img : 'right',
+                backimg : 'https://image.freepik.com/foto-gratis/fotografo-producto-femenino-joven-estudio_23-2148970230.jpg',
                 id : 3
             }]
         }

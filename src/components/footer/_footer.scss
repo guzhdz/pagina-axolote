@@ -49,14 +49,14 @@ body {
     p {
       width: 400px;
       color: $color-7;
-      font-size: .7em;
+      font-size: 0.7em;
       text-align: justify;
     }
 
     ul {
       margin-left: -40px;
       color: $color-7;
-      font-size: .7em;
+      font-size: 0.7em;
       list-style: none;
 
       a {
@@ -77,14 +77,13 @@ body {
         height: 200px;
       }
     }
-    
   }
 
   .links {
     margin-top: 50px;
     margin-left: 60px;
     margin-right: 60px;
-    font-size: .6em;
+    font-size: 0.6em;
 
     .copy {
       color: $color-7;
@@ -92,8 +91,7 @@ body {
     }
 
     .privacy {
-      margin-left: 1260px;
-      margin-right: 60px;
+      margin-left: 1240px;
       color: $color-7;
       display: inline;
     }

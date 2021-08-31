@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Card = ({service, description, link, number, text, img}) => (
+const Card = ({service, description, link, number, text, img, backimg}) => (
   <div class={`skw-page skw-page-${ number } active`}>
     <div id={`${ link }`} />
-    <div class={`skw-page__half skw-page__half--${ img }`}>
+    <div class={`skw-page__half skw-page__half--${ img }`} style={{ backgroundImage: `url(${ backimg })`}}>
       <div class="skw-page__skewed">
         <div class="skw-page__content"></div>
       </div>

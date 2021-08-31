@@ -1,7 +1,6 @@
 import React from 'react';
 import List from '../../components/card/card-list.jsx';
 import './_services.scss';
-import './services.js';
 
 const Services = () => (
     
