@@ -101,13 +101,15 @@ $scrollTime: 1s;
   &__heading {
     margin-bottom: 15px;
     text-transform: uppercase;
-    font-size: 45px;
+    font-size: 55px;
     text-align: left;
+    color: $color-5;
   }
 
   &__description {
     font-size: 28px;
     text-align: left;
+    color: $color-3;
   }
 
   &__link {
@@ -119,12 +121,12 @@ $scrollTime: 1s;
       background-image: url("https://image.freepik.com/foto-gratis/desarrollo-sitios-web_53876-95315.jpg");
     }
     .skw-page__half--right .skw-page__content {
-      background: $color-4;
+      background: $color-6;
     }
   }
   &-2 {
     .skw-page__half--left .skw-page__content {
-      background: $color-4;
+      background: $color-6;
     }
     .skw-page__half--right .skw-page__content {
       background-image: url("https://image.freepik.com/foto-gratis/cerca-manos-mujer-emprendedora-telefonos-inteligentes-transcurso-fecha-limite-empresaria-enviando-mensajes-texto-altas-horas-noche-mientras-trabajaba-proyecto-importante-telefono-inteligente_482257-10261.jpg");
@@ -135,12 +137,12 @@ $scrollTime: 1s;
       background-image: url("https://image.freepik.com/foto-gratis/joven-lider-equipo-gran-corporacion-informando-companeros-trabajo-apuntando-al-grafico-reunion-personal-corporativo_482257-4169.jpg");
     }
     .skw-page__half--right .skw-page__content {
-      background: $color-4;
+      background: $color-6;
     }
   }
   &-4 {
     .skw-page__half--left .skw-page__content {
-      background: $color-4;
+      background: $color-6;
     }
     .skw-page__half--right .skw-page__content {
       background-image: url("https://image.freepik.com/foto-gratis/fotografo-producto-femenino-joven-estudio_23-2148970230.jpg");

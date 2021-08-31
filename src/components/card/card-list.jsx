@@ -37,7 +37,7 @@ class List extends React.Component {
             },
             {
                 service : 'FOTOGRAFÍA',
-                description : 'OFRECEMOS EL SERVICIO DE FOTOGRAFÍA DE TUS PRODUCTOS,YA SEA PARA USARLOS EN PÁGINAS WEB, CARTELES, LONAS, LO QUE TE PUEDAS IMAGINAR',
+                description : 'OFRECEMOS EL SERVICIO DE FOTOGRAFÍA DE TUS PRODUCTOS, YA SEA PARA USARLOS EN PÁGINAS WEB, CARTELES, LONAS O LO QUE TE PUEDAS IMAGINAR',
                 link : 'Servicios/fotografia',
                 number : 4,
                 text : 'left',
