@@ -9,7 +9,9 @@ $(document).ready(function() {
         entries.forEach(elem => {
             if(elem.isIntersecting) {
                 elem.target.classList.add("animation--appear");
+                elem.target.classList.remove("disappear");
                 border.classList.add("animation--appear2");
+                border.classList.remove("disappear2");
             }
         });
     }
