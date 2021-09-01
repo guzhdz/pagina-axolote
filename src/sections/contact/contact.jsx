@@ -7,9 +7,9 @@ import './contant.js'
 
 const Contact = () => (
     <div className="cont-contact">
-        <div className="container">
-            <h2 id="title">Contacto</h2>
-            <div className="form" id="form">
+        <div className="container disappear2">
+            <h2 id="title" className="disappear">Contacto</h2>
+            <div className="form disappear" id="form">
                 <Input type="text" label="Nombre"/>
                 <Input type="email" label="Correo"/>
                 <Textarea label="Escribe tu mensaje aqui" className="textarea"/>
