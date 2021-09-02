@@ -5,7 +5,6 @@ import Services from './sections/services/services.jsx';
 import Contact from './sections/contact/contact.jsx';
 import Footer from './components/footer/footer.jsx';
 import Home from './sections/home/home.jsx';
-import Servicios from './sections/servicios/servicios.jsx';
 
 function App() {
   return (
@@ -14,7 +13,7 @@ function App() {
       <Nav />
       <Home />
       <div id="Servicios"/>
-      <Servicios />
+      <Services />
       <div id="Contacto"/>
       <Contact />
       <Footer />

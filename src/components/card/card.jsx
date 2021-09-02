@@ -1,22 +1,20 @@
 import React from 'react'
+import Button from '../button/button.jsx'
 
-const Card = ({service, description, link, number, text, img, backimg}) => (
-  <div class={`skw-page skw-page-${ number } active`}>
-    <div id={`${ link }`} />
-    <div class={`skw-page__half skw-page__half--${ img }`} style={{ backgroundImage: `url(${ backimg })`}}>
-      <div class="skw-page__skewed">
-        <div class="skw-page__content"></div>
-      </div>
-    </div>
-    <div class={`skw-page__half skw-page__half--${ text }`}>
-      <div class="skw-page__skewed">
-        <div class="skw-page__content">
-          <h2 class="skw-page__heading">{ service }</h2>
-          <p class="skw-page__description">{ description }</p>
+const Card = ({service, description, link, number, backimg, active}) => (
+    <div class={`slide slide-${ number } ${ active }`} id={ link }>
+      <div class="slide__bg" style={{ backgroundImage: `url(${ backimg })`}} ></div>
+      <div class="slide__content">
+        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+          <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+        </svg>
+        <div class="slide__text">
+          <h2 class="slide__text-heading">{ service }</h2>
+          <p class="slide__text-desc">{ description }</p>
+          <a href='#Contacto'> <Button texto='Contactanos' /> </a>
         </div>
       </div>
     </div>
-  </div>
 )
 
 export default Card
