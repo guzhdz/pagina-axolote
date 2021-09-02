@@ -5,12 +5,6 @@
   height: 900px;
   margin: 25px 60px;
 
-  @font-face {
-    src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/polar.otf");
-    font-family: "Polar";
-  }
-  $polar: "Polar", Helvetica, Arial, sans-serif;
-  $openSans: "Open Sans", Helvetica, Arial, sans-serif;
   @mixin mediaMaxWidth($w) {
     @media (max-width: $w) {
       @content;
@@ -130,6 +124,7 @@
       .slide__bg {
         transition: transform 0.5s;
         will-change: transform;
+        background-size: width 100%;
       }
     }
   }
@@ -165,7 +160,7 @@
       }
 
       .slide__overlay-path {
-        fill: rgb(233, 156, 126);
+        fill: $color-1;
       }
 
       @include mediaMaxWidth(991px) {
@@ -182,7 +177,7 @@
       }
 
       .slide__overlay-path {
-        fill: rgb(225, 204, 174);
+        fill: $color-4;
       }
 
       @include mediaMaxWidth(991px) {
@@ -199,7 +194,7 @@
       }
 
       .slide__overlay-path {
-        fill: rgb(173, 197, 205);
+        fill: $color-1;
       }
 
       @include mediaMaxWidth(991px) {
@@ -216,7 +211,7 @@
       }
 
       .slide__overlay-path {
-        fill: rgb(203, 198, 195);
+        fill: $color-4;
       }
 
       @include mediaMaxWidth(991px) {
@@ -258,7 +253,7 @@
       position: absolute;
       width: 25%;
       bottom: 15%;
-      left: 12%;
+      left: 5%;
       color: #fff;
       transition: transform 0.5s 0.8s, opacity 0.5s 0.8s;
       will-change: transform, opacity;
@@ -277,8 +272,7 @@
       }
 
       &-heading {
-        font-family: $polar;
-        font-size: 5rem;
+        font-size: 3rem;
         margin-bottom: 2rem;
 
         @include mediaMaxWidth(991px) {
@@ -288,7 +282,6 @@
       }
 
       &-desc {
-        font-family: $openSans;
         font-size: 1.8rem;
         margin-bottom: 1.5rem;
 
@@ -303,7 +296,6 @@
         position: relative;
         padding: 0.5rem;
         cursor: pointer;
-        font-family: $openSans;
         font-size: 2.3rem;
         perspective: 1000px;
 

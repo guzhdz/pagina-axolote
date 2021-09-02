@@ -1,5 +1,9 @@
 import React from 'react'
 import Card from './card.jsx'
+import app from './images/aplicaciones_moviles.jpg'
+import fotografia from './images/fotografia.jpg'
+import web from './images/web.jpg'
+import sistemas from './images/sistemas.jpg'
 
 class List extends React.Component {
     constructor() {
@@ -10,7 +14,7 @@ class List extends React.Component {
                 description : 'CREAMOS TU PÁGINA WEB DE PIES A CABEZA, TUS IDEAS LAS HAREMOS REALIDAD',
                 link : 'Servicios/diseño_web',
                 number : 0,
-                backimg : 'https://image.freepik.com/foto-gratis/desarrollo-sitios-web_53876-95315.jpg',
+                backimg : web,
                 id : 0,
                 active : 'active'
             },
@@ -19,7 +23,7 @@ class List extends React.Component {
                 description : 'CREAMOS TU APLICACIÓN MÓVIL PERSONALIZADA, PARA CUALQUIER SISTEMA OPERATIVO',
                 link : 'Servicios/aplicaciones_moviles',
                 number : 1,
-                backimg : 'https://image.freepik.com/foto-gratis/cerca-manos-mujer-emprendedora-telefonos-inteligentes-transcurso-fecha-limite-empresaria-enviando-mensajes-texto-altas-horas-noche-mientras-trabajaba-proyecto-importante-telefono-inteligente_482257-10261.jpg',
+                backimg : app,
                 id : 1
             },
             {
@@ -27,7 +31,7 @@ class List extends React.Component {
                 description : 'DESDE SISTEMAS DE ASISTENCIA DE EMPLEADOS, HASTA PROGRAMAS QUE CALCULEN LA NÓMINA GENERAL, GASTOS, INGRESOS Y TODO LO QUE TE IMAGINES',
                 link : 'Servicios/sistemas_empresas',
                 number : 2,
-                backimg : 'https://image.freepik.com/foto-gratis/joven-lider-equipo-gran-corporacion-informando-companeros-trabajo-apuntando-al-grafico-reunion-personal-corporativo_482257-4169.jpg',
+                backimg : sistemas,
                 id : 2
             },
             {
@@ -35,7 +39,7 @@ class List extends React.Component {
                 description : 'OFRECEMOS EL SERVICIO DE FOTOGRAFÍA DE TUS PRODUCTOS, YA SEA PARA USARLOS EN PÁGINAS WEB, CARTELES, LONAS O LO QUE TE PUEDAS IMAGINAR',
                 link : 'Servicios/fotografia',
                 number : 3,
-                backimg : 'https://image.freepik.com/foto-gratis/fotografo-producto-femenino-joven-estudio_23-2148970230.jpg',
+                backimg : fotografia,
                 id : 3
             }]
         }
