@@ -163,6 +163,16 @@
         fill: $color-1;
       }
 
+      Button {
+        border: 3px solid $color-4;
+        color: $color-4;
+
+        &:hover {
+          background-color: $color-4;
+          color: $color-2;
+        }
+      }
+
       @include mediaMaxWidth(991px) {
         .slide__text {
           background-color: rgba(233, 156, 126, 0.8);
@@ -195,6 +205,16 @@
 
       .slide__overlay-path {
         fill: $color-1;
+      }
+
+      Button {
+        border: 3px solid $color-4;
+        color: $color-4;
+
+        &:hover {
+          background-color: $color-4;
+          color: $color-2;
+        }
       }
 
       @include mediaMaxWidth(991px) {
