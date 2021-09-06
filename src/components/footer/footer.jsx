@@ -2,30 +2,34 @@ import React from 'react';
 import './_footer.scss';
 import logo from './images/logo.png';
 import { ReactComponent as Facebook } from './images/facebook.svg';
+import { ReactComponent as Whatsapp } from './images/whatsapp.svg';
+import { ReactComponent as Gmail } from './images/gmail.svg';
 
 const Footer = () => (
 <footer>
-
   
   <div className="cont-footer">
     <div className="content">
       <div className="logo">
         <img src={logo} alt=''/>
+        <p>Axolotl Labs es una empresa de desarrollo de software a nivel profesional, ya sea para empresas, marcas personales, negocios, etc.</p>
       </div>
       <div className="facebook">
         <a href="https://www.facebook.com/Axolotl.Labs.Ventas/"> <Facebook /> </a>
       </div>
+      <div className="whatsapp">
+        <a href=""> <Whatsapp /> </a>
+      </div>
+      <div className="gmail">
+        <a href=""> <Gmail /> </a>
+      </div>
     </div>
     <div className="privacy">
-      <div className="labs">
-        <p>Axolotl Labs 2021</p>
-      </div>
       <div className="aviso">
         <span>Aviso de </span> <span><a href=''>privacidad</a></span>
       </div>
     </div>
   </div>
-
 
   <svg viewBox="0 0 120 28">
     <defs>
