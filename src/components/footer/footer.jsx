@@ -31,7 +31,7 @@ const Footer = () => (
     </div>
   </div>
 
-  <svg viewBox="0 0 120 28">
+  <svg viewBox="0 0 120 28" preserveAspectRatio="none">
     <defs>
       <mask id="xxx">
         <circle cx="7" cy="12" r="40" fill="#fff" />
