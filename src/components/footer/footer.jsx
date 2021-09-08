@@ -13,7 +13,7 @@ const Footer = () => (
       <div className="logo">
         <img src={logo} alt=''/>
         <p>Axolotl Labs es una empresa de desarrollo de software a nivel profesional, ya sea para empresas, marcas personales, negocios, etc.</p>
-      </div>
+        </div>
       <div className="facebook">
         <a href="https://www.facebook.com/Axolotl.Labs.Ventas/"> <Facebook /> </a>
       </div>
@@ -26,12 +26,12 @@ const Footer = () => (
     </div>
     <div className="privacy">
       <div className="aviso">
-        <span>Aviso de </span> <span><a href=''>privacidad</a></span>
+        <span>@ 2021 Axolotl Labs - Aviso de </span> <span><a href=''>privacidad</a></span>
       </div>
     </div>
   </div>
 
-  <svg viewBox="0 0 120 28" preserveAspectRatio="none">
+  <svg viewBox="0 0 120 28">
     <defs>
       <mask id="xxx">
         <circle cx="7" cy="12" r="40" fill="#fff" />

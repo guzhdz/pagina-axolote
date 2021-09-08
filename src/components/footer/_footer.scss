@@ -5,8 +5,8 @@ footer {
   height: 200px;
   position: relative;
 }
+
 .cont-footer {
-  margin-left: 60px;
   margin-right: 60px;
   margin-top: 12%;
   width: 100%;
@@ -19,9 +19,11 @@ footer {
     margin-right: 100px;
     display: flex;
     justify-content: space-between;
+    background: $color-6;
+    width: 100%;
 
     img {
-      margin-left: 20px;
+      margin-left: 60px;
       height: 150px;
     }
 
@@ -59,7 +61,7 @@ footer {
     }
 
     .gmail {
-      margin-right: 80px;
+      margin-right: 120px;
       margin-top: 30px;
 
       svg {
@@ -79,6 +81,7 @@ footer {
     text-align:center;
     justify-content: space-between;
     font-size: 0.75em;
+    background: $color-6;
 
     .aviso {
       a {
@@ -95,49 +98,24 @@ footer {
 
   @media screen and (max-width: 768px) {
     .content {
-      width: 95%;
+      width: 100%;
     }
     footer {
       height: auto;
       background: #7c34e9;
-    }
-    svg {
-      background: chartreuse;
     }
     .content img {
       position: initial;
       float: none;
       display: block;
       transform: none;
-      margin: 10px auto 0 auto;
+      margin: 0 auto 0 auto;
     }
     p {
       float: none;
       display: block;
       text-align: center;
       margin: 0 auto;
-    }
-    ul.nav li {
-      float: initial;
-      display: inline-block;
-    }
-  }
-
-  @media all and (min-width: 768px) {
-    .content {
-      width: 750px;
-    }
-  }
-
-  @media all and (min-width: 992px) {
-    .content {
-      width: 970px;
-    }
-  }
-
-  @media all and (min-width: 1200px) {
-    .content {
-      width: 1170px;
     }
   }
 }
