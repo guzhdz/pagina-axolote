@@ -12,7 +12,7 @@ const Footer = () => (
     <div className="content">
       <div className="logo">
         <img src={logo} alt=''/>
-        <p>Axolotl Labs es una empresa de desarrollo de software a nivel profesional, ya sea para empresas, marcas personales, negocios, etc.</p>
+        <span>Axolotl Labs es una empresa de desarrollo de software a nivel profesional, ya sea para empresas, marcas personales, negocios, etc.</span>
         </div>
       <div className="facebook">
         <a href="https://www.facebook.com/Axolotl.Labs.Ventas/"> <Facebook /> </a>
