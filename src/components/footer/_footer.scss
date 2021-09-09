@@ -26,17 +26,22 @@ footer {
     }
 
     p{
-      width: 500px;
       display: inline-block;
-      vertical-align: 130%;
-      margin-left: 30px;
+      vertical-align: 150%;
+      margin-left: 2vw;
+      margin-right: 2vw;
+      width: 400px;
+    }
+
+    .social{
+      display: flex;
+      margin-left: 73vw;
+      margin-top: -7vw
     }
 
     .facebook {
-      margin-top: 30px;
-      margin-left: 700px;
       svg {
-        height: 80px;
+        height: 4vw;
       }
 
       g:hover {
@@ -46,10 +51,9 @@ footer {
     }
 
     .whatsapp {
-      margin-top: 30px;
-
+      margin-left: 4vw;
       svg {
-        height: 80px;
+        height: 4vw;
       }
 
       g:hover {
@@ -59,11 +63,9 @@ footer {
     }
 
     .gmail {
-      margin-right: 120px;
-      margin-top: 30px;
-
+      margin-left: 4vw;
       svg {
-        height: 80px;
+        height: 4vw;
       }
 
       g:hover {
@@ -75,7 +77,7 @@ footer {
   }
 
   .privacy {
-    margin:auto;
+    margin: auto;
     text-align:center;
     justify-content: space-between;
     font-size: 0.75em;
@@ -109,12 +111,41 @@ footer {
       transform: none;
       margin: 0 auto 0 auto;
     }
-    span {
+    p {
       float: none;
       display: block;
       text-align: center;
       margin: 0 auto;
+      width: auto !important;
     }
+    .social{
+      position: initial;
+      float: none;
+      transform: none;
+      width: 100% !important;
+      margin-left: 0vw !important;
+      margin-top: 0vw !important;
+      justify-content: center !important;
+    }
+    .whatsapp{
+      svg {
+        height: 14vw !important;
+      }
+    }
+    .gmail{
+      margin-left: 0vw !important;
+      padding-bottom: 5vw !important;
+      svg {
+        height: 14vw !important;
+      }
+    }
+    .facebook{
+      margin-left: 7vw !important;
+      margin-right: 7vw !important;
+    svg {
+      height: 14vw !important;
+    }
+   }
   }
 }
 
