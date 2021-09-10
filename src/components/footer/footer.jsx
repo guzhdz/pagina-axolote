@@ -16,13 +16,13 @@ const Footer = () => (
         </div>
       <div className="social">
       <div className="whatsapp">
-        <a href=""> <Whatsapp /> </a>
+        <a href="https://api.whatsapp.com/send?phone=3327984007&text=Bienvenido%20a%20Axolotl%20Labs,%20Cu%C3%A9ntanos...%20%C2%BFQu%C3%A9%20necesitas?"> <Whatsapp /> </a>
       </div>
       <div className="facebook">
         <a href="https://www.facebook.com/Axolotl.Labs.Ventas/"> <Facebook /> </a>
       </div>
       <div className="gmail">
-        <a href=""> <Gmail /> </a>
+        <a href="mailto:axolotlabs.ventas@gmail.com"> <Gmail /> </a>
       </div>
       </div>
     </div>
@@ -36,7 +36,7 @@ const Footer = () => (
   <svg viewBox="0 0 120 28">
     <defs>
       <mask id="xxx">
-        <circle cx="7" cy="12" r="40" fill="#fff" />
+        <circle cx="7" cy="12" r="40" fill="#fff" className="circulo" />
       </mask>
 
       <filter id="goo">
