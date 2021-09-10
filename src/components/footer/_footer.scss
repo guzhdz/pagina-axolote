@@ -25,7 +25,7 @@ footer {
       height: 150px;
     }
 
-    p{
+    p {
       display: inline-block;
       vertical-align: 150%;
       margin-left: 2vw;
@@ -33,32 +33,32 @@ footer {
       width: 400px;
     }
 
-    .social{
+    .social {
       display: flex;
       margin-left: 73vw;
-      margin-top: -7vw
+      margin-top: -7vw;
+    }
+
+    .social {
+      a:hover {
+        g {
+          transition: 0.7s;
+          fill: $color-5;
+        }
+      }
     }
 
     .facebook {
-      svg {
-        height: 4vw;
-      }
-
-      g:hover {
-        transition: 0.7s;
-        fill: $color-5;
-      }
-    }
-
-    .whatsapp {
       margin-left: 4vw;
       svg {
         height: 4vw;
       }
+    }
 
-      g:hover {
-        transition: 0.7s;
-        fill: $color-5;
+    .whatsapp {
+      margin-left: 6vw;
+      svg {
+        height: 4vw;
       }
     }
 
@@ -67,18 +67,12 @@ footer {
       svg {
         height: 4vw;
       }
-
-      g:hover {
-        transition: 0.7s;
-        fill: $color-5;
-      }
     }
-
   }
 
   .privacy {
     margin: auto;
-    text-align:center;
+    text-align: center;
     justify-content: space-between;
     font-size: 0.75em;
     background: $color-6;
@@ -118,7 +112,7 @@ footer {
       margin: 0 auto;
       width: auto !important;
     }
-    .social{
+    .social {
       position: initial;
       float: none;
       transform: none;
@@ -127,28 +121,27 @@ footer {
       margin-top: 0vw !important;
       justify-content: center !important;
     }
-    .whatsapp{
+    .whatsapp {
       svg {
         height: 14vw !important;
       }
     }
-    .gmail{
+    .gmail {
       margin-left: 0vw !important;
       padding-bottom: 5vw !important;
       svg {
         height: 14vw !important;
       }
     }
-    .facebook{
+    .facebook {
       margin-left: 7vw !important;
       margin-right: 7vw !important;
-    svg {
-      height: 14vw !important;
+      svg {
+        height: 14vw !important;
+      }
     }
-   }
   }
 }
-
 
 svg {
   width: 100%;

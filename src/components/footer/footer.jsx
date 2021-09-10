@@ -14,7 +14,7 @@ const Footer = () => (
         <img src={logo} alt=''/>
         <p>Somos una empresa de desarrollo de software a nivel profesional internacional</p>
         </div>
-        <div className="social">
+      <div className="social">
       <div className="whatsapp">
         <a href=""> <Whatsapp /> </a>
       </div>
