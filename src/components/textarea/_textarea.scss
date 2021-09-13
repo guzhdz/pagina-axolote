@@ -66,4 +66,11 @@
     transform: translate(1%, -1030%);
     transition: 0.2s ease all;
   }
+
+  @media screen and (max-width: 768px) {
+    label{
+      font-size: 0.8em !important;
+      height: 2.35vh;
+    }
+  }
 }
