@@ -54,16 +54,6 @@ const Footer = () => (
     <use id="wave3" class="wave" xlinkHref="#wave" x="0" y="-2"></use>
     <use id="wave2" class="wave" xlinkHref="#wave" x="0" y="0"></use>
 
-    <g class="topball" >
-      <a href='#Inicio'>
-      <circle class="ball" cx="110" cy="8" r="4" stroke="none" stroke-width="0" />
-      <g class="arrow">
-        <polyline class="" points="108,8 110,6 112,8" fill="none" />
-        <polyline class="" points="110,6 110,10.5" fill="none" />
-      </g>
-      </a>
-    </g>
-
     <g class="gooeff">
       <circle class="drop drop1" cx="20" cy="2" r="1.8" />
       <circle class="drop drop2" cx="25" cy="2.5" r="1.5" />

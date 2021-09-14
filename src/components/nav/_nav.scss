@@ -1,8 +1,9 @@
+@import "../../styles/colors.scss";
+
 .cont-nav {
   .container {
     position: relative;
     margin: 0 auto;
-    color: black;
   }
 
   .hold {
@@ -18,14 +19,15 @@
     left: 0;
     z-index: 100;
     transition: all 0.6s ease;
-    background: #7c34e9;
+    background: $color-6;
   }
 
   .header.fade {
     transition: all 0.6s ease;
     background: rgba(124, 52, 233, 0.6);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    ul ul {
+    .drop {
+      transition: all 0.6s ease;
       background: rgba(124, 52, 233, 0.6);
       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
@@ -43,6 +45,7 @@
     height: 40px;
     width: 170px;
     margin-left: 5px;
+
     a {
       color: initial;
       text-decoration: initial;
@@ -67,46 +70,13 @@
   }
 
   ul.nav li:hover a {
-    color: #f76ca5;
+    color: $color-4;
   }
 
   ul.nav li a {
     padding: 21px;
     color: initial;
     text-decoration: initial;
-  }
-
-  ul ul {
-    display: none;
-    list-style: none;
-    position: absolute;
-    top: 82px;
-    left: 950px;
-    background-color: #7c34e9;
-    width: 195px;
-
-    li {
-      font-size: 18px;
-      float: none;
-      padding: 0;
-      width: 120%;
-      margin-left: -40px;
-
-      &:hover a {
-        color: #f76ca5;
-      }
-
-      &:hover {
-        background-color: #6913e9;
-      }
-
-      a {
-      }
-    }
-
-    &:hover {
-      display: block;
-    }
   }
 
   ul.nav li:hover + ul {
@@ -129,13 +99,41 @@
     }
   }
 
+  .drop {
+    display: none;
+    top: 82px;
+    margin-left: 100px;
+    position: absolute;
+    background-color: $color-6;
+    width: 250px;
+
+    &:hover {
+      display: block;
+    }
+  }
+
+  .drop a {
+    font-size: 0.8em;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .drop a:hover {
+    color: $color-4;
+  }
+  .nav .dropdown:hover + .drop {
+    display: block;
+  }
+
   @media all and (max-width: 768px) {
     .container {
       width: 95%;
     }
     .header {
       height: auto;
-      background: #7c34e9;
+      background: $color-6;
     }
     #logo {
       position: initial;

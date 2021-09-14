@@ -93,23 +93,6 @@ footer {
   svg {
     width: 100%;
   }
-
-  .arrow {
-    stroke-width: 0.3px;
-    stroke: $color-3;
-  }
-  .topball {
-    animation: ball 1.5s ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-delay: 0.3s;
-    cursor: pointer;
-  }
-
-  .ball {
-    fill: $color-1;
-  }
-
   .wave {
     animation: wave 3s linear;
     animation-iteration-count: infinite;
@@ -172,11 +155,6 @@ footer {
       transform: translateX(-100%);
     }
   }
-  @keyframes ball {
-    to {
-      transform: translateY(20%);
-    }
-  }
 
   @media screen and (max-width: 768px) {
     .content {
@@ -227,10 +205,6 @@ footer {
       svg {
         height: 14vw !important;
       }
-    }
-
-    .topball {
-      visibility: hidden;
     }
   }
 }

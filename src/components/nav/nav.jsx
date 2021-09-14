@@ -13,13 +13,13 @@ const Nav = () => (
             </div>
             <ul class="nav">
                 <li><a href="#Inicio">Inicio</a></li>
-                <li><a href="#Servicios">Servicios</a></li>
-                <ul>
-                    <li><a href="">Diseño web</a></li>
-                    <li><a href="">Aplicaciones moviles</a></li>
-                    <li><a href="">Sistemas empresariales</a></li>
-                    <li><a href="">Fotografia</a></li>
-                </ul>
+                <li className="dropdown"><a className="servicios" href="#Servicios">Servicios</a></li>
+                    <div className="drop">
+                        <a href="">Diseño web</a>
+                        <a href="">Aplicaciones moviles</a>
+                        <a href="">Sistemas empresariales</a>
+                        <a href="">Fotografia</a>
+                    </div>
                 <li><a href="#Contacto">Contacto</a></li>
             </ul>
             </div>
