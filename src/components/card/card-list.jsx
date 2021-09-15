@@ -12,7 +12,7 @@ class List extends React.Component {
             services : [{
                 service : 'DISEÑO WEB',
                 description : 'CREAMOS TU PÁGINA WEB DE PIES A CABEZA, TUS IDEAS LAS HAREMOS REALIDAD',
-                link : 'Servicios/diseño_web',
+                link : 'Servicios/web',
                 number : 0,
                 backimg : web,
                 id : 0,
@@ -21,7 +21,7 @@ class List extends React.Component {
             {
                 service : 'APLICACIONES MÓVILES',
                 description : 'CREAMOS TU APLICACIÓN MÓVIL PERSONALIZADA, PARA CUALQUIER SISTEMA OPERATIVO',
-                link : 'Servicios/aplicaciones_moviles',
+                link : 'Servicios/aplicaciones',
                 number : 1,
                 backimg : app,
                 id : 1
@@ -29,7 +29,7 @@ class List extends React.Component {
             {
                 service : 'SISTEMAS PERSONALIZADOS PARA EMPRESAS',
                 description : 'DESDE SISTEMAS DE ASISTENCIA DE EMPLEADOS, HASTA PROGRAMAS QUE CALCULEN LA NÓMINA GENERAL, GASTOS, INGRESOS Y TODO LO QUE TE IMAGINES',
-                link : 'Servicios/sistemas_empresas',
+                link : 'Servicios/sistemas',
                 number : 2,
                 backimg : sistemas,
                 id : 2

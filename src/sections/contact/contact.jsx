@@ -15,7 +15,7 @@ const Contact = () => (
                 <Textarea label="Escribe tu mensaje aqui" className="textarea"/>
                 <Button texto="Enviar" />
             </div>
-            <ul class="bg-bubbles" id="animation">
+            <ul className="bg-bubbles" id="animation">
                     <li></li>
                     <li></li>
                     <li></li>

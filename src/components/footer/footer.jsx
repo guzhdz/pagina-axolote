@@ -28,7 +28,7 @@ const Footer = () => (
     </div>
     <div className="privacy">
       <div className="aviso">
-        <span>@ 2021 Axolotl Labs - Aviso de </span> <span><a href=''>privacidad</a></span>
+        <span>@ 2021 Axolotl Labs - Aviso de </span> <span><a href='#Inicio'>privacidad</a></span>
       </div>
     </div>
   </div>
@@ -51,15 +51,15 @@ const Footer = () => (
       <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
     </defs>
 
-    <use id="wave3" class="wave" xlinkHref="#wave" x="0" y="-2"></use>
-    <use id="wave2" class="wave" xlinkHref="#wave" x="0" y="0"></use>
+    <use id="wave3" className="wave" xlinkHref="#wave" x="0" y="-2"></use>
+    <use id="wave2" className="wave" xlinkHref="#wave" x="0" y="0"></use>
 
-    <g class="gooeff">
-      <circle class="drop drop1" cx="20" cy="2" r="1.8" />
-      <circle class="drop drop2" cx="25" cy="2.5" r="1.5" />
-      <circle class="drop drop3" cx="16" cy="2.8" r="1.2" />
-      <use id="wave1" class="wave" xlinkHref="#wave" x="0" y="1" />
-      <path   id="wave1"  class="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+    <g className="gooeff">
+      <circle className="drop drop1" cx="20" cy="2" r="1.8" />
+      <circle className="drop drop2" cx="25" cy="2.5" r="1.5" />
+      <circle className="drop drop3" cx="16" cy="2.8" r="1.2" />
+      <use id="wave1" className="wave" xlinkHref="#wave" x="0" y="1" />
+      <path   id="wave1"  className="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
   </g>
 
   </svg>

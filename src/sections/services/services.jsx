@@ -5,11 +5,11 @@ import './services.js';
 
 const Services = () => (
     <div className='cont-services'>
-      <div class="slider-container">
-      <div class="slider-control left inactive"></div>
-      <div class="slider-control right"></div>
-      <ul class="slider-pagi"></ul>
-        <div class="slider">
+      <div className="slider-container">
+      <div className="slider-control left inactive"></div>
+      <div className="slider-control right"></div>
+      <ul className="slider-pagi"></ul>
+        <div className="slider">
             <List />
         </div>
       </div>

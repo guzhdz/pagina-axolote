@@ -172,12 +172,6 @@
           color: $color-2;
         }
       }
-
-      @include mediaMaxWidth(991px) {
-        .slide__text {
-          background-color: rgba(233, 156, 126, 0.8);
-        }
-      }
     }
     &:nth-child(2) {
       left: 100%;
@@ -188,12 +182,6 @@
 
       .slide__overlay-path {
         fill: $color-4;
-      }
-
-      @include mediaMaxWidth(991px) {
-        .slide__text {
-          background-color: rgba(225, 204, 174, 0.8);
-        }
       }
     }
     &:nth-child(3) {
@@ -216,12 +204,6 @@
           color: $color-2;
         }
       }
-
-      @include mediaMaxWidth(991px) {
-        .slide__text {
-          background-color: rgba(173, 197, 205, 0.8);
-        }
-      }
     }
     &:nth-child(4) {
       left: 300%;
@@ -232,12 +214,6 @@
 
       .slide__overlay-path {
         fill: $color-4;
-      }
-
-      @include mediaMaxWidth(991px) {
-        .slide__text {
-          background-color: rgba(203, 198, 195, 0.8);
-        }
       }
     }
 

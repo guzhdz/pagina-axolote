@@ -10,8 +10,9 @@ $(document).ready(function() {
         animating = false,
         animTime = 500,
         autoSlideTimeout,
-        autoSlideDelay = 6000,
+        autoSlideDelay = 10000,
         $pagination = $(".slider-pagi");
+        // webdir = window.location.href;
     
     function createBullets() {
       for (var i = 0; i < numOfSlides+1; i++) {
